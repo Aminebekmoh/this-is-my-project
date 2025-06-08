@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+
+*{
+    margin: 0;    
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tagesschrift', sans-serif;
+}
+body{
+    background-color: #0d3b66;
+}
+.header{
+    margin-bottom: 30px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    margin:5px 15px;
+}
+a {
+    text-decoration: none;
+    color: #cec9c9d3;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+a:hover ,.active {
+    text-decoration: underline;
+    color: black;
+    transform: scale(1.1);
+    transition: 0.5s ease all;
+}
+img {
+    height: 30px;
+    width: 100px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition:  1s ease all;
+}
+img:hover  {
+    transform: scale(1.1);
+}
+.main {
+    display: flex;
+
+    height: 100vh;
+    background-color: skyblue;
+}
+.menu{
+    width: 25%;
+    background-color: beige;
+}
+.h1 {
+    margin: 40px 50px;
+}
+.h1::before {
+    content:"Les Info Sur Le personnage: ";
+    color: rgba(14, 14, 14, 0.76);
+}
+.choie {
+    margin: 20px 50px;
+    
+}
+
+
+select {
+    margin :25px;
+    width: 75%;
+}
+.info {
+    margin-left: 15px;
+}
+.name::before {
+    content: "Le Nom: ";
+    color: rgba(14, 14, 14, 0.76);
+}
+.bounty::before {
+    content: "Le Prix: ";
+    color: rgba(14, 14, 14, 0.76);
+}
+.age::before {
+    content: "L'age: ";
+    color: rgba(14, 14, 14, 0.76);
+}
+.size::before {
+    content: "La Taille: ";
+    color: rgba(14, 14, 14, 0.76);
+}
+.crew::before {
+    content: "L'equipage: ";
+    color: rgba(14, 14, 14, 0.76);
+}
+.fruit::before {
+    content: "Le fruit: ";
+    color: rgba(14, 14, 14, 0.76);
+}
+.job::before {
+    content: "Le metier: ";
+    color: rgba(14, 14, 14, 0.76);
+}
+.status::before {
+    content: "Le statut: ";
+    color: rgba(14, 14, 14, 0.76);
+}
+.info h3 {
+    margin-bottom: 5px;
+}
