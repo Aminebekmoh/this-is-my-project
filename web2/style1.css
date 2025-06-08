@@ -1,0 +1,78 @@
+body {
+    background-color:#544d4d73;
+    font-family: Arial, sans-serif;
+    color: whitesmoke;
+    height: 100vh;
+}
+
+.container {
+    margin :auto;
+    padding: 20px;
+    background-color:#71707091 ;
+    border-radius: 15px;
+    width: 40%;
+
+
+}
+ul {
+    list-style: disc ;
+    
+}
+h1 {
+    text-align: center;
+    color: #333;
+    margin: auto;
+    margin-bottom: 20px;
+}
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #3f3a3a6d;
+    color: whitesmoke;
+}
+.div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    margin: auto;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+input::placeholder{
+    color: whitesmoke;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+input{
+    width: 80%;
+}
+#libtn {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.548);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    
+
+    transition: background-color 0.3s ease;
+}

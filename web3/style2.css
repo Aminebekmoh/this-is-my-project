@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+.right {
+    width: 65%;
+    height: 100vh;
+    background-color: #1c1b1b86;
+}
+   
+.container{
+    display: flex;
+}
+
+body {
+    color: white;
+    background-color: #5554549c;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.left {
+    width: 35%;
+    height: 100vh;
+   
+    background-color: rgba(44, 43, 43, 0.881);
+}
+.logo  {
+    margin-bottom: 5px;
+    padding: 50px;
+    text-align: center;
+
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+input {
+    width: 80%;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    background-color: rgba(44, 43, 43, 0.881);
+}
+
+#sign {
+    width: 80%;
+    height: 25px;
+    background-color: #e56313c9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+a { 
+    display: flex;
+    flex-direction:column ;
+    margin-bottom: 13px;
+    text-decoration: none;
+    color: white;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.create {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid white;
+    padding:5px 5px ;
+    width: 40%;
+    padding-bottom: 7px;
+    height: 23px;
+    cursor: pointer;
+    align-self: center;
+    margin-bottom: 30px;
+
+}
+.or {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+small {
+    margin-bottom: 5px;
+}
+span {
+    color: #e56313c9;
+}
+
+.s {
+    padding: 10px;
+    width: 50%;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color:transparent;
+    color: white;
+}
+.div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+}
+h1 {
+    height: 30px;
+    font-size: 40px;
+    max-width: auto;
+    margin-bottom: 20px;
+}
+
+@media  (max-width:1000px) {
+ .left {
+    width: 40%;
+ }
+}
+@media  (max-width:900px) {
+ h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+ }
+    .left {
+        width: 50%;
+    }
+}
+@media  (max-width:750px) {
+.container {
+    flex-direction: column;
+
+
+}}
+.left{
+    width: 100%;
+
+}
+.o {
+    margin: auto;
+    width: 25%;	
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    width: 100%;
+}
+hr {
+    color: white;
+    height: 1px;
+    
+}
+#or {
+    margin: 0px 5px;
+    color: white;
+    font-size: 14px;
+}
+hr {
+    border: none;
+    flex: auto;
+    background-color: white;
+}
+
+.empty {
+    color: red;
+    font-size: 10px;
+    display: none;
+}
+
+
+.creat {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    display: none;
+    position: relative;
+}
+.inps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.creat input {
+    width: 35%;
+
+    
+    height: 30px;
+}
+.creat button {
+    width: 20%;
+    height: 30px;
+    background-color: #e56313c9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+  
+}
+.show {
+    display: none;
+    color: green;
+    font-size: 10px;
+    margin-top: 5px;
+}
+.creat h1 {
+    font-size: 30px;
+    margin: 20px 0;
+    text-align:center ;
+    color: white;
+}
+.creat h2 {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0;
+    color: white;
+}
+
+.bay h2 {
+    padding: 10px;
+    margin: 25px;
+}
+.bay{
+    position: absolute;
+    box-shadow: 10px 10px 500px rgba(0, 0, 0, 0.5);
+    left: 50%;
+    right: 50%;
+    background-color: aliceblue;
+    display: none;
+    margin: auto;
+    width: 500px;
+    height: 550px;
+    padding-left:30px ;
+
+}
+
+#nom {display: flex;
+    width: 60%;
+
+flex-direction: column;}
+#prenom {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.nom {
+    display: flex;
+
+}
+#numcarte ,.pays {
+    width: 90%;
+
+
+}
+.date {
+    width: 30%;
+}
+.cvv ,.postal , .ville {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.e , .d {
+    display: flex;
+    gap: 165px;
+
+}
+
+.address {
+   
+    width: 112%;
+}
+
+
+
+.pays {
+    display: flex;
+    flex-direction: column;
+    width: 112%;
+}
+.baybtn {
+    margin-left: 25px;
+    width: 80%;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    align-self:center;
+
+}

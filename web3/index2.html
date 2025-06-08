@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="creat" id="creat">
+        <h1>SLURALPRIGHT</h1>
+        <h2>Create Account</h2>
+        <div class="inps">
+            <p>Enter Your Full Name</p>
+            <input type="text">
+            <p>Enter Your Email</p>
+            <input type="email">
+            <p>Enter Your Password</p>
+            <input type="password">
+            <p>Confirm Your Password</p>
+            <input type="password">
+            <button >Sign Up</button>
+        </div>
+        
+    </div>
+    <div class="container" id="container">
+        <div class="left">
+            <div class="con">
+                <div class="logo">
+                    <h2>SLURALPRIGHT</h2>
+                </div>
+                <div class="inputs">
+                    <p>Email Or Username</p>
+                    <input type="text" id="email" >
+                    <p id="password" >Password</p>
+                    <input type="text" >
+                    <small class="show">Correct Y'll Be At Your Acount After 30second </small>
+                    <small class="empty" id="empty">The Password Or The Email Is EMPTY</small>
+                    <button id="sign" onclick="login()">Sign in</button>
+                    
+                </div>
+                <div class="links">
+                    <a href="#">Forgot Password?</a>
+                    <a href="#">Sign in with company or school</a>
+                </div>
+                <div class="o"><hr> <span id="or">or</span> <hr></div>
+                <div class="or">
+                    <button class="create" onclick="signup()">Create an account</button>
+                    <small>Copyright @ 2018 SluralPright LLC ALL right reserved</small>
+                    <p><span>Terms of Use</span> | <span>Privacy Policy</span></p>
+                </div>  
+            </div>
+        </div>
+        <div class="right">
+            <div class="div">
+                <h1>Let's create the future together</h1>
+                <button class="s" onclick="x()">Start a FREE 10-day trial</button>
+            </div>
+        </div> 
+        
+    </div>
+    <div class="bay" >
+        <h2>Information de la carte</h2>
+        <div class="nom">
+            <div id="nom">
+                <small>Nom de famille</small>
+                <input type="text" placeholder="Nom" id="nom">
+            </div>
+            <div class="prenom">
+                 <small>Prénom</small>
+                <input type="text" placeholder="Prenom" id="prenom">
+            </div>
+           
+        </div>
+            <small>Numéro de carte</small>
+            <input type="text" placeholder="Numéro de carte" id="numcarte">
+            
+            <div class="e">
+                <div class="date">
+                    <small>Date d'expiration</small>
+                    <input type="text" placeholder="MM/YY" >
+                </div>
+                    
+                    
+                <div class="cvv">
+                    <small>CVV</small>
+                    <input type="text" placeholder="CVV" id="cvv">
+                </div>
+            </div>
+           
+               
+            <div class="address">           
+                 <small>Adresse de facturation</small>
+                <input type="text" placeholder="Adresse de facturation" id="adresse">
+            </div>
+            <div class="d">
+                <div class="ville">
+                    <small>Ville</small>
+                    <input type="text" placeholder="Ville" id="ville">
+                </div>
+                <div class="postal">
+                    <small>Code postal</small>
+                    <input type="text" placeholder="Code postal" id="codepostal">
+                </div>
+            </div>
+           
+                
+            
+            <div class="pays">
+                <small>Pays</small>
+                <input type="text" placeholder="Pays" id="pays">
+            </div>
+            <button class="baybtn" >Confirmer</button>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
